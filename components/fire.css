@@ -1,0 +1,54 @@
+.fire {
+  position: absolute;
+  top: -30px;
+  left: 50%;
+  width: 100%;
+  height: 50px;
+  transform: translateX(-50%);
+  background: radial-gradient(
+    circle,
+    rgba(255, 204, 0, 0.8) 0%,
+    rgba(0, 0, 255, 0.6) 100%
+  );
+  filter: blur(15px);
+  animation: fire-flicker 0.2s infinite alternate;
+}
+
+@keyframes fire-flicker {
+  0% {
+    opacity: 0.8;
+    transform: scaleY(1);
+  }
+  100% {
+    opacity: 1;
+    transform: scaleY(1.3);
+  }
+}
+
+.heat-waves {
+  position: absolute;
+  top: -50px;
+  left: 50%;
+  width: 120%;
+  height: 80px;
+  transform: translateX(-50%);
+  background: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 0.2) 0%,
+    transparent 100%
+  );
+  filter: blur(25px);
+  opacity: 0.5;
+  animation: heat-waves-animation 1s infinite alternate ease-in-out;
+}
+
+@keyframes heat-waves-animation {
+  0% {
+    transform: translateX(-50%) scaleY(1);
+    opacity: 0.4;
+  }
+  100% {
+    transform: translateX(-50%) scaleY(1.2);
+    opacity: 0.6;
+  }
+}
