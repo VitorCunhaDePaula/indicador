@@ -3,7 +3,7 @@ import React from "react";
 function Hero() {
   return (
     <div className="w-full flex flex-col items-center mb-8">
-      <h2 className="text-2xl font-bold mb-4 text-white">
+      <h2 className="text-2xl font-bold mb-4 text-white text-center">
         📢 Analisando o Sentimento de Renato
       </h2>
       <img
@@ -16,7 +16,7 @@ function Hero() {
         investidores. Abaixo, apresentamos dois índices que ajudam a interpretar
         esse comportamento, baseado no tweet de Renato:
       </p>
-      <img src="/print2.png" />
+      <img src="/tweet2.png" />
     </div>
   );
 }
