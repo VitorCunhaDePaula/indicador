@@ -16,7 +16,7 @@ function Hero() {
         investidores. Abaixo, apresentamos dois índices que ajudam a interpretar
         esse comportamento, baseado no tweet de Renato:
       </p>
-      <img src="/tweet.png" />
+      <img src="/tweet2.png" />
     </div>
   );
 }
