@@ -4,7 +4,7 @@ import { Progress } from "@/components/ui/progress";
 import { motion } from "framer-motion";
 
 export default function HeroAltseason() {
-  const [index, setIndex] = useState(52);
+  const [index, setIndex] = useState(95);
 
   return (
     <div className="relative flex flex-col items-center justify-center text-white text-center p-6 w-full max-w-4xl mx-auto mt-20">
